@@ -20,16 +20,18 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'cloudfree' );
+define('WP_ALLOW_REPAIR', true);
+
+define( 'DB_NAME', 'cloudfree_test' );
 
 /** Database username */
-define( 'DB_USER', 'admincloudfree' );
+define( 'DB_USER', 'cloudfree_test' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'cloudfree' );
+define( 'DB_PASSWORD', 'testtest123!' );
 
 /** Database hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'mysql-cloudfree.alwaysdata.net' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
